@@ -1,0 +1,14 @@
+{
+    "update_interval": {
+        "description": "更新间隔(分钟)",
+        "type": "int",
+        "hint": "自动更新数据的时间间隔，单位为分钟",
+        "default": 10
+    },
+    "max_display_items": {
+        "description": "最大显示项目数",
+        "type": "int",
+        "hint": "查询结果最多显示的项目数量",
+        "default": 10
+    }
+}

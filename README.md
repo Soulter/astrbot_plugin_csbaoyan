@@ -13,11 +13,11 @@
 
 ## DEMO
 
-<img src="https://github.com/user-attachments/assets/6d5716c7-c333-4a8a-be56-7ea83a714b4a" width=500/>
+<img src="https://github.com/user-attachments/assets/6d5716c7-c333-4a8a-be56-7ea83a714b4a" width=800/>
 
-<img src="https://github.com/user-attachments/assets/ed236c37-a437-4891-a5c6-f33bd07df5bf" width=500/>
+<img src="https://github.com/user-attachments/assets/ed236c37-a437-4891-a5c6-f33bd07df5bf" width=800/>
 
-<img src="https://github.com/user-attachments/assets/b63a484d-b2d2-4dce-9f38-6324a407ffb9" width=500/>
+<img src="https://github.com/user-attachments/assets/b63a484d-b2d2-4dce-9f38-6324a407ffb9" width=800/>
 
 
 ## 使用方法

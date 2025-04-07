@@ -17,7 +17,9 @@
 ### 基本命令
 
 > `/baoyan` 可以替换为 `/by`
+> 
 > `list` 可以替换为 `ls`
+> 
 > `upcoming` 可以替换为 `up`
 
 - `/baoyan list [tag]` - 列出保研项目（可选标签筛选，多个标签用逗号分隔）
@@ -29,6 +31,9 @@
 - `/baoyan update` - 手动更新保研信息数据
 - `/baoyan sub` - 订阅保研信息更新通知(仅 aiocqhttp、Telegram 适配器可用)
 - `/baoyan unsub` - 取消订阅保研信息更新通知
+
+> [!WARNING]
+> 建议不要过多依赖订阅功能！！！定期去各大高校官网获取信息是一个很好的习惯
 
 默认 10 分钟更新一次数据。
 

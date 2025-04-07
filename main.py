@@ -17,7 +17,7 @@ from astrbot.api.message_components import Plain
     "Soulter",
     "查询最近计算机保研信息的插件",
     "1.0.0",
-    "",
+    "https://github.com/Soulter/astrbot_plugin_csbaoyan",
 )
 class BaoyanPlugin(Star):
     def __init__(self, context: Context, config: AstrBotConfig = None):

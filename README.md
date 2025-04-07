@@ -1,6 +1,8 @@
 # 保研信息查询插件 (astrbot_plugin_csbaoyan)
 
-这个插件可以帮助你随时查询最新的保研信息，包括各大高校的夏令营、冬令营等保研通知。数据来源于 [CS-Baoyan](https://github.com/orgs/CS-BAOYAN/repositories) 社区。
+这个插件可以帮助你随时查询最新的计算机保研信息，包括各大高校的夏令营、冬令营等保研通知。
+
+数据来源于 **[CS-BAOYAN](https://github.com/orgs/CS-BAOYAN/repositories) 社区。**
 
 ## 功能特点
 

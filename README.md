@@ -29,15 +29,20 @@
 > 
 > `upcoming` 可以替换为 `up`
 
+常用
+- `/baoyan upcoming [tag]` - 列出 30 天内即将截止的项目（可选标签筛选，多个标签用逗号分隔）
+- `/baoyan search [关键词]` - 搜索
 - `/baoyan list [tag]` - 列出保研项目（可选标签筛选，多个标签用逗号分隔）
+- `/baoyan sub` - 订阅保研信息更新通知(仅 aiocqhttp、Telegram 适配器可用)
+- `/baoyan unsub` - 取消订阅保研信息更新通知
+
+其他
 - `/baoyan sources` - 列出所有可用的数据源
 - `/baoyan set_default <source>` - 设置默认数据源
 - `/baoyan tags` - 列出当前数据源中的所有标签
-- `/baoyan upcoming [tag]` - 列出30天内即将截止的项目（可选标签筛选，多个标签用逗号分隔）
 - `/baoyan detail <name>` - 查看特定项目的详细信息
 - `/baoyan update` - 手动更新保研信息数据
-- `/baoyan sub` - 订阅保研信息更新通知(仅 aiocqhttp、Telegram 适配器可用)
-- `/baoyan unsub` - 取消订阅保研信息更新通知
+
 
 > [!WARNING]
 > 建议不要过多依赖订阅功能！！！定期去各大高校官网获取信息是一个很好的习惯
@@ -47,8 +52,14 @@
 ### 示例
 
 ```bash
-# 查看所有可用数据源
-/baoyan sources
+# 列出30天内即将截止的项目
+/baoyan upcoming # 或者 /by up
+
+# 列出30天内即将截止的985高校项目
+/baoyan upcoming 985 # 或者 /by up 985
+
+# 搜索
+/baoyan search 北京科技大学
 
 # 列出当前数据源中的前10个项目
 /baoyan list
@@ -59,14 +70,8 @@
 # 查看同时拥有"985,C9"标签的前10个项目
 /baoyan list 985,C9
 
-# 列出30天内即将截止的项目
-/baoyan upcoming # 或者 /by up
-
-# 列出30天内即将截止的985高校项目
-/baoyan upcoming 985 # 或者 /by up 985
-
-# 搜索
-/baoyan search 北京科技大学
+# 查看所有可用数据源
+/baoyan sources
 
 # 手动更新数据
 /baoyan update

@@ -11,6 +11,13 @@
 - 支持搜索：可以通过项目名称进行模糊搜索
 - 支持订阅：可以订阅保研信息更新通知（仅 aiocqhttp、Telegram 适配器可用）
 
+## DEMO
+
+![image](https://github.com/user-attachments/assets/6d5716c7-c333-4a8a-be56-7ea83a714b4a)
+
+![image](https://github.com/user-attachments/assets/ed236c37-a437-4891-a5c6-f33bd07df5bf)
+
+![image](https://github.com/user-attachments/assets/b63a484d-b2d2-4dce-9f38-6324a407ffb9)
 
 ## 使用方法
 
